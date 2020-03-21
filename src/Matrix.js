@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import  pattern1 from 'data.js';
+
 
 export default class Matrix extends Component {
   
@@ -17,5 +19,6 @@ export default class Matrix extends Component {
       </div>
     )
   }
-  
+  Matrix.defaultProps = { 
+} 
 }
